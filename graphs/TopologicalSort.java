@@ -10,7 +10,7 @@ numCourses - number of vertices in the graph
 Question link: https://leetcode.com/problems/course-schedule-ii/#/description
 **/
 
-public class Solution {
+public class TopologicalSort {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
          
         int[] inDegree = new int[numCourses];
