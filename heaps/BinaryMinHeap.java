@@ -139,3 +139,9 @@ Complexity of the removal operation is O(h) = O(log n), where h is heap's height
       }
  
 }
+
+/* 
+
+for more explanations & diagrams, please refer to
+http://www.algolist.net/Data_structures/Binary_heap 
+**/
