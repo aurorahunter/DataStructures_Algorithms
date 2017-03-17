@@ -1,3 +1,0 @@
-Binary heap
-
-There are several types of heaps, but in the current article we are going to discuss the binary heap. For short, let's call it just "heap". It is used to implement priority queue ADT and in the heapsort algorithm. Heap is a complete binary tree, which answers to the heap property.
