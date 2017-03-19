@@ -1,0 +1,12 @@
+This folder contains all Graph solutions to famous algorithms.
+These are compiled from Princetons' DS & Algo courses.
+Link for References
+
+http://algs4.cs.princeton.edu/home/ 
+
+Order in which to go through:
+
+[1] Graph.java
+[2] DFS.java
+[3] BFS.java
+ 
