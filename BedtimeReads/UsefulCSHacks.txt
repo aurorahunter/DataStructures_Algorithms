@@ -1,0 +1,8 @@
+[1] Character Encoding http://net-informations.com/q/faq/encoding.html
+[2] OS concepts: http://quiz.geeksforgeeks.org/commonly-asked-operating-systems-interview-questions-set-1/
+[3] TCP vs OSI http://www.studytonight.com/computer-networks/comparison-osi-tcp-model
+[4] How browsers work https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
+[5] BigO: http://bigocheatsheet.com/
+[6] Java 20 qns: http://simpledeveloper.com/java-interview-questions/
+[7] Java Collections: http://javahungry.blogspot.com/p/collection.html
+[8] Bit Manipulation Hacks: https://www.quora.com/What-are-some-cool-bit-manipulation-tricks-hacks
