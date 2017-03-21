@@ -9,4 +9,21 @@ Order in which to go through:
 [1] Graph.java
 [2] DFS.java
 [3] BFS.java
+[4] CC.java
+[5] AllPaths.java
+[6] TarjanSCC.java
+[7] WordLadder.java
+[8] WebCrawler.java
+
+ MSTs
  
+ [1] Edge.java
+ [2] EdgeWeightedGraph.java
+ [3] PrimMST.java
+ 
+ ShortestPaths
+ 
+ [1] DirectedEdge.java
+ [2] EdgeWeightedDiGraph.java
+ [3] DijkstraShortestPath.java
+ [4] BellManFord.java

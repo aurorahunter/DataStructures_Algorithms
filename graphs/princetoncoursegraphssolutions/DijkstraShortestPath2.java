@@ -34,7 +34,7 @@ public class DijkstraSP {
         }
 
         // check optimality conditions
-        assert check(G, s);
+        assert check(G, s); // Optional 
     }
 
     // relax edge e and update pq if changed
