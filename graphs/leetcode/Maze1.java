@@ -22,7 +22,7 @@ Input 3: destination coordinate (rowDest, colDest) = (4, 4)
 Output: true
 Explanation: One possible way is : left -> down -> left -> down -> right -> down -> right.
 **/
-public class Solution {
+public class Maze2 {
     public boolean hasPath(int[][] maze, int[] start, int[] destination) {
         int m = maze.length, n = maze[0].length;
         boolean[][] visited = new boolean[m][n];
