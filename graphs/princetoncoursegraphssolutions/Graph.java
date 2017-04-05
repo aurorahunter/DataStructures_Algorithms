@@ -8,19 +8,13 @@ public class Graph {
      *
      * @param  G the graph to copy
      */
-    public Graph(Graph G) {
-        this(G.V());
-        this.E = G.E();
-        for (int v = 0; v < G.V(); v++) {
-            // reverse so that adjacency list is in same order as original
-            Stack<Integer> reverse = new Stack<Integer>();
-            for (int w : G.adj[v]) {
-                reverse.push(w);
-            }
-            for (int w : reverse) {
-                adj[v].add(w);
-            }
-        }
+    public Graph(int V) {
+     if (V < 0) throw new IllegalArgumentException("Number of vertices must be nonnegative");
+        this.V = V;
+        this.E = 0;
+        adj = (LinkedList<Integer>[]) new LinkedList[V];
+        for (int v = 0; v < V; v++) {
+            adj[v] = new LinkedList<Integer>();
     }
     /**
      * Returns the number of vertices in this graph.

@@ -1,7 +1,6 @@
 public class CC {
     private boolean[] marked;   // marked[v] = has vertex v been marked?
     private int[] id;           // id[v] = id of connected component containing v
-    private int[] size;         // size[id] = number of vertices in given component
     private int count;          // number of connected components
 
     /**
@@ -12,7 +11,6 @@ public class CC {
     public CC(Graph G) {
         marked = new boolean[G.V()];
         id = new int[G.V()];
-        size = new int[G.V()];
         for (int v = 0; v < G.V(); v++) {
             if (!marked[v]) {
                 dfs(G, v);
@@ -25,7 +23,6 @@ public class CC {
     private void dfs(Graph G, int v) {
         marked[v] = true;
         id[v] = count;
-        size[count]++;
         for (int w : G.adj(v)) {
             if (!marked[w]) {
                 dfs(G, w);
@@ -44,17 +41,7 @@ public class CC {
         return id[v];
     }
 
-    /**
-     * Returns the number of vertices in the connected component containing vertex {@code v}.
-     *
-     * @param  v the vertex
-     * @return the number of vertices in the connected component containing vertex {@code v}
-     * @throws IllegalArgumentException unless {@code 0 <= v < V}
-     */
-    public int size(int v) {
-        validateVertex(v);
-        return size[id[v]];
-    }
+ 
 
     /**
      * Returns the number of connected components in the graph {@code G}.
