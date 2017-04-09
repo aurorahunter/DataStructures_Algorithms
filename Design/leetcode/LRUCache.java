@@ -60,7 +60,7 @@ public int get(int key) {
 	return -1;
 }
 
-public void set(int key, int value) {
+public void put(int key, int value) {
 	if (map.get(key) != null) {
 		Node node = map.get(key);
 		node.value = value;
